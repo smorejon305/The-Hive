@@ -1,0 +1,80 @@
+:root {
+  --ff-primary: "Alegreya Sans", sans-serif;
+
+  --clr-neutral-100: #f7f4ef;
+  --clr-neutral-400: #c3c1bf;
+  --clr-neutral-900: #171810;
+
+  --clr-accent-200: #c09d75;
+  --clr-accent-800: #0b3334;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* HEADER BANNER w IMG */
+
+.headerBanner {
+  background-image: url("media/Dreamside_00001.jpg");
+  background-size: cover;
+  appearance: no-repeat;
+  height: 100vh;
+}
+
+.headerText {
+  color: var(--clr-primary-900);
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+/* Title Section */
+
+.titleSection {
+  background-color: var(--clr-neutral-900);
+  height: 100vh;
+}
+
+h1 {
+  color: var(--clr-accent-200);
+  font-family: var(--ff-primary);
+  font-size: 3.5em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 0;
+}
+
+.subTitle {
+  color: var(--clr-neutral-100);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.downArrow {
+  color: var(--clr-neutral-100);
+  text-align: center;
+  font-size: 5em;
+  margin-top: 1em;
+}
+
+/* Tan Background */
+
+.tanBackground {
+  background-color: var(--clr-accent-200);
+}
+
+.featuredPhoto {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
