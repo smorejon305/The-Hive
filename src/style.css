@@ -90,6 +90,7 @@ height: 100vh;
 .aboutTheHive-title{
     color: var(--clr-accent-200); 
      font-size: 2.5em; 
+     font-family: var(--ff-primary); 
      font-weight: 300; 
      letter-spacing: .1em; 
      line-height: 2em; 
