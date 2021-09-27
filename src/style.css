@@ -147,10 +147,10 @@ max-width: 90%;
 
 
 
-.image-container{
+.image-container-dark{
     display: block;
     margin: 0 auto;  
-background-image: url(media/Dreamside_00009.jpg); 
+background-image:url(media/Dreamside_00004.jpg); 
 background-size: cover; 
 max-width: 90%;
     height: 90%; 
@@ -164,4 +164,5 @@ max-width: 90%;
     margin-bottom: 1%; 
     font-weight: 400; 
     text-transform: uppercase; 
+    text-align: right; 
 }
