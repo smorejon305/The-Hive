@@ -166,3 +166,20 @@ max-width: 90%;
     text-transform: uppercase; 
     text-align: right; 
 }
+
+
+/* CONTACT SECTION */
+
+.contactSection {
+  background-color: var(--clr-accent-800); 
+  height: 100vh; 
+}
+
+
+.messageBox{
+width: 50%; 
+}
+
+.contactImage{
+  max-width: 50%; 
+}
