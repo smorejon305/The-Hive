@@ -175,31 +175,19 @@ max-width: 90%;
 }
 
 
-/* .hotelFeature-imageContainer1,
+.hotelFeature-imageContainer1,
 .hotelFeature-imageContainer2,
 .hotelFeature-imageContainer3{
   border: 1px solid black;
   max-width: 100%;
-  height: 80vh; 
-  padding: 5%; 
-  margin: 5%; 
+  height: auto; 
 }
  
-
-.hotelFeature-imageContainer1{
-  background-image: url(media/Dreamside_00002.jpg); 
-  background-position: 50% 50%; 
+.featuresImage{
+  max-height: 100%; 
 }
 
-.hotelFeature-imageContainer2{
-  background-image: url(media/Dreamside_00006.jpg);  
-background-position: 50% 50%; 
-}
 
-.hotelFeature-imageContainer3{
-  background-image: url(media/Dreamside_00009.jpg); 
-  background-position: 50% 50%; 
-} */
 
 .hotelFeature{
   border: solid 1px red; 
