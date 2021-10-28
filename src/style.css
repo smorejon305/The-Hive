@@ -172,43 +172,9 @@ max-width: 90%;
 .featuresSection{
   background-color: var(--clr-accent-800); 
   height: 100vh; 
+  display: flex; 
 }
 
-
-.hotelFeature-imageContainer1,
-.hotelFeature-imageContainer2,
-.hotelFeature-imageContainer3{
-  border: 1px solid black;
-  max-width: 100%;
-  height: auto; 
-}
- 
-.featuresImage{
-  max-height: 100%; 
-}
-
-
-
-.hotelFeature{
-  border: solid 1px red; 
-margin: 2%; 
-height: 95vh; 
-}
-
-.hotelFeature-imageContainer1, 
-.hotelFeature-imageContainer2, 
-.hotelFeature-imageContainer3
-{
-border: solid 1px whitesmoke; 
-height: 80vh; 
-max-width: 100%; 
-margin: 0 0 5% 0; 
-}
-
-.hotelFeature-caption{
-  color: var(--clr-neutral-100); 
-  text-align: center; 
-}
 
 /* CONTACT SECTION */
 
