@@ -240,11 +240,50 @@ width: 50%;
 
 
 /* CONTACT SECTION */
-.contactSection-photo{
-  height: 100vh; 
-  background-color: red; 
+
+.contactForm-title {
+  color: var(--clr-neutral-400); 
+  font-family: var(--ff-primary); 
+  font-size: 2em;
+  padding: 20vh; 
+  margin: 1em; 
 }
 
+.contactForm-textBox{
+  padding: .5em; 
+}
+
+.contactForm-messageBox{
+padding: 2em; 
+height: 40%; 
+width: 100%; 
+
+}
+
+.contactForm-submitButton{
+  
+padding: 1em; 
+}
+
+.contactSection-photo{
+  height: 100vh; 
+  background-image: url(media/Dreamside_00003.jpg); 
+  background-size: cover; 
+}
+
+/* FOOTER SECTION */
+
+.footerSection{
+  height: 80vh; 
+  background-color: var(--clr-neutral-400); 
+}
+
+.footerTitle{
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  text-align: center; 
+  padding: 10vh 0;  
+}
 
 /* SPLIT rules */
 
