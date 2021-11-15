@@ -245,36 +245,43 @@ width: 50%;
   color: var(--clr-neutral-400); 
   font-family: var(--ff-primary); 
   font-size: 2em;
-  padding: 20vh; 
+padding: 2em; 
   margin: 1em; 
+  text-align: center; 
 }
 
 .contactForm-textBox{
   padding: .5em; 
+  margin: 1em; 
+  border-radius: 10px; 
 }
 
 .contactForm-messageBox{
 padding: 2em; 
 height: 40%; 
 width: 100%; 
-
+margin: 1em; 
+border-radius: 10px; 
 }
 
 .contactForm-submitButton{
-  
 padding: 1em; 
+margin: 1em; 
+border-radius: 10px; 
+
 }
 
 .contactSection-photo{
   height: 100vh; 
   background-image: url(media/Dreamside_00003.jpg); 
   background-size: cover; 
+  background-position: 50% 50%; 
 }
 
 /* FOOTER SECTION */
 
 .footerSection{
-  height: 80vh; 
+  height: 60vh; 
   background-color: var(--clr-neutral-400); 
 }
 
@@ -284,6 +291,22 @@ padding: 1em;
   text-align: center; 
   padding: 10vh 0;  
 }
+
+.socialButtons{
+  text-align: center; 
+}
+
+.social-icon{
+  font-size: 3em; 
+  padding: .2em; 
+}
+
+.copyright{
+  text-align: center; 
+  font-family: var(--ff-primary); 
+  padding-top: 5%; 
+}
+
 
 /* SPLIT rules */
 
