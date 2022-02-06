@@ -89,7 +89,7 @@ height: 60vh;
 
 .aboutTheHive {
 background-color: var(--clr-accent-800); 
-height: 100vh; 
+min-height: fit-content; 
 }
 
 .aboutTheHive-title{
@@ -103,10 +103,15 @@ height: 100vh;
      padding-top: 15vh; 
 }
 
+.text-container{
+  min-height: fit-content; 
+  padding-bottom: 3em; 
+}
+
 .aboutTheHive-text{
     color: var(--clr-neutral-100); 
     font-family: var(--ff-primary);
-    font-size: 1.5em; 
+    font-size: 1em; 
     padding: 1em; 
     padding-top: 2.5em; 
     text-align: center; 
