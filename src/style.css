@@ -178,16 +178,22 @@ max-width: 90%;
 
 .featuresSection{
   background-color: var(--clr-accent-800); 
-  height: 100vh; 
   display: flex; 
+  min-height: fit-content;
+  align-items: center; 
+  justify-content: center; 
 }
 
+.featureImage{
+  height: 50vh; 
+  max-width: 30%;
+}
 
 /* CONTACT SECTION */
 
 .contactSection {
   background-color: var(--clr-neutral-900); 
-  height: 100vh; 
+  min-height: fit-content; 
 }
 
 
@@ -202,8 +208,19 @@ width: 50%;
 /* FEATURE Section */
 
 .hotelFeatures-section{
-  height: 100vh; 
+ min-height: fit-content; 
+ max-width: 100%; 
   background-color: var(--clr-accent-800); 
+
+}
+
+.flex-container{
+  min-height: fit-content; 
+  max-width: 100%; 
+   background-color: var(--clr-accent-800); 
+   display: flex; 
+ align-items: center; 
+ justify-content: space-around; 
 }
 
 .featureImage-1, 
@@ -211,8 +228,8 @@ width: 50%;
 .featureImage-3{
   background-color: black; 
   border-radius: 5%;
-  height: 80vh; 
- margin: 10%; 
+  height: 50vh; 
+ margin: 5%; 
 }
 
 .featureImage-1{
