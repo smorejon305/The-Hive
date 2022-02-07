@@ -211,14 +211,13 @@ width: 50%;
  min-height: fit-content; 
  max-width: 100%; 
   background-color: var(--clr-accent-800); 
-
 }
 
 .flex-container{
-  min-height: fit-content; 
+  display: flex; 
+  min-height: 100%; 
   max-width: 100%; 
    background-color: var(--clr-accent-800); 
-   display: flex; 
  align-items: center; 
  justify-content: space-around; 
 }
