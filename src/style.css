@@ -211,7 +211,12 @@ width: 50%;
   max-width: 100%; 
    background-color: var(--clr-accent-800); 
   align-items: center; 
- justify-content: space-evenly; 
+ justify-content: space-evenly;
+ flex-wrap: wrap;  
+}
+
+.featureImage{
+  /* flex-wrap: wrap;  */
 }
 
 .featureImage-1, 
@@ -347,4 +352,6 @@ border-radius: 10px;
 /* END OF SPLIT RULES */
 
 
-@media screen and 
+@media screen and (max-width: 500px){
+
+}
