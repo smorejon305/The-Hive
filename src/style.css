@@ -262,6 +262,11 @@ width: 50%;
 
 /* CONTACT SECTION */
 
+.contactForm-section{
+  display: block; 
+  margin: 0 auto; 
+}
+
 .contactForm-title {
   color: var(--clr-neutral-400); 
   font-family: var(--ff-primary); 
