@@ -280,7 +280,7 @@ padding: 2em;
 .contactForm-messageBox{
 padding: 2em; 
 height: 40%; 
-width: 100%; 
+max-width: 95%; 
 margin: 1em; 
 border-radius: 10px; 
 }
