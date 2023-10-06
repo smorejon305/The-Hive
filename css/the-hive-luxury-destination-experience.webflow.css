@@ -1,0 +1,572 @@
+:root {
+  --gold-400: #bf9c75;
+  --neutral-100: #f6f4ee;
+  --teal-400: #0b3334;
+  --neutral-900: #181810;
+}
+
+body {
+  color: #171810;
+  background-color: #f6f4ee;
+  font-family: Alegreya Sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+.clr-neutral-900 {
+  background-color: #171810;
+}
+
+.styleguide-typography {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainheading {
+  font-size: 2.5rem;
+}
+
+.mainheading.aboutheading {
+  color: var(--gold-400);
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+
+.mainh2 {
+  text-align: center;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.mainp-text {
+  width: 55ch;
+  color: var(--neutral-100);
+  text-align: left;
+  letter-spacing: normal;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.mainp-text.clr-goldtext {
+  color: #f6f4ee;
+}
+
+.clr-neutral-100 {
+  background-color: #f6f4ee;
+}
+
+.clr-teal-400 {
+  background-color: #0b3334;
+}
+
+.clr-neutral-200 {
+  background-color: #c3c1bf;
+}
+
+.clr-gold-400 {
+  background-color: #bf9c75;
+}
+
+.navsection {
+  z-index: 999999;
+  background-color: #181810;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.herosection {
+  width: 100vw;
+  height: 100vh;
+}
+
+.herodiv {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Dreamside_00001.jpg');
+  background-position: 100%;
+  background-size: cover;
+}
+
+.heroheading {
+  text-align: center;
+  letter-spacing: .2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 79px;
+  font-family: Alegreya Sans, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.titlesection {
+  width: 100vw;
+  height: 100vh;
+  background-color: #171810;
+}
+
+.titletext {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.titletext-title {
+  color: var(--gold-400);
+  letter-spacing: .2rem;
+  font-size: 5.5rem;
+}
+
+.titletext-subtitle {
+  color: #f6f4ee;
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+.downarrow {
+  color: #f6f4ee;
+  padding-top: 150px;
+  font-size: 5.5rem;
+  font-weight: 100;
+}
+
+.imagesection {
+  width: 100vw;
+  height: 100vh;
+}
+
+.imagediv {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Dreamside_00005.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.imagediv.bydayimage {
+  background-image: url('../images/Dreamside_00009-min.jpg');
+}
+
+.imagediv.bynightimage {
+  background-image: url('../images/Dreamside_00004-min.jpg');
+}
+
+.aboutsection {
+  width: 100vw;
+  height: 100vh;
+}
+
+.aboutdiv {
+  width: 100%;
+  height: 100%;
+  background-color: #0b3334;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-2 {
+  color: #bf9c75;
+}
+
+.button {
+  background-color: var(--gold-400);
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-weight: 500;
+}
+
+.button.formbutton {
+  margin-top: 20px;
+}
+
+.featuressection {
+  width: 100vw;
+  height: auto;
+  background-color: var(--teal-400);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.features-flexdiv {
+  width: 100vw;
+  height: 80vh;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.featuresdiv {
+  width: 30vw;
+  height: 100%;
+  background-image: url('../images/Dreamside_00002.jpg');
+  background-position: 50%;
+  background-size: cover;
+  padding: 20px;
+}
+
+.featuresdiv.features1 {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  display: flex;
+}
+
+.featuresdiv.features2 {
+  background-image: url('../images/Dreamside_00006.jpg');
+  background-position: 0%;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  display: flex;
+}
+
+.featuresdiv.features3 {
+  background-image: url('../images/Dreamside_00008.jpg');
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  display: flex;
+}
+
+.featurestitle {
+  color: var(--neutral-100);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.featuresimage {
+  max-height: 80vh;
+  border-radius: 40px;
+  padding: 25px;
+}
+
+.image-2, .image-3 {
+  padding: 25px;
+}
+
+.contactsection {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--neutral-900);
+}
+
+.contactdiv {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contactdiv-image {
+  width: 50vw;
+  height: 100%;
+  background-image: url('../images/Dreamside_00003.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.contactformdiv {
+  width: 50vw;
+  height: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: block;
+}
+
+.footersection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.socialmedia-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.socialmediaicons {
+  width: 25px;
+  height: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.copyrighttext {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.opacityblock {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.field-label {
+  color: var(--neutral-100);
+}
+
+.form-fieldlabel {
+  color: var(--neutral-100);
+  font-weight: 100;
+}
+
+.form-messagefield {
+  width: 60%;
+  height: 20vh;
+  background-color: var(--neutral-100);
+  border-radius: 10px;
+}
+
+.text-field, .text-field-2 {
+  background-color: var(--neutral-100);
+}
+
+.form-singleline {
+  width: 60%;
+  background-color: var(--neutral-100);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.form-block {
+  height: auto;
+  display: block;
+}
+
+.heading-3 {
+  color: var(--gold-400);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.navh2 {
+  color: #bf9c75;
+  font-size: 2.5em;
+}
+
+.navbar {
+  z-index: 9999;
+  background-color: var(--neutral-900);
+  color: #ddd;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navlink {
+  color: #f5f2ec;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.navlink:hover, .navlink.w--current {
+  color: #bf9c75;
+}
+
+.contactbutton {
+  width: 125px;
+  height: 40px;
+  text-align: center;
+  background-color: #bf9c75;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .features-flexdiv {
+    flex-direction: column;
+  }
+
+  .featuresdiv.features1, .featuresdiv.features2, .featuresdiv.features3 {
+    width: 80vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contactformdiv {
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+  }
+
+  .opacityblock {
+    height: 100%;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .icon {
+    color: #bf9c75;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainp-text {
+    width: 55ch;
+  }
+
+  .contactdiv {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contactdiv-image {
+    width: 100vw;
+    background-position: 50% 75%;
+  }
+
+  .contactformdiv {
+    width: 100vw;
+    padding-left: 0;
+  }
+
+  .form {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    display: flex;
+  }
+
+  .form-block {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .heading-3 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .contactbutton {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .mainheading.aboutheading {
+    font-size: 2rem;
+  }
+
+  .mainp-text {
+    width: 30ch;
+  }
+
+  .titletext-title {
+    font-size: 3em;
+  }
+
+  .titletext-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .contactdiv-image {
+    width: 100vw;
+  }
+
+  .contactformdiv, .form {
+    padding-left: 0;
+  }
+
+  .form-block {
+    padding-left: 20px;
+  }
+
+  .heading-3 {
+    color: var(--gold-400);
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .icon {
+    color: #bf9c75;
+  }
+}
+
+
