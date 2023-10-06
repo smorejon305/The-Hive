@@ -201,6 +201,7 @@ h1 {
 
 .button {
   background-color: var(--gold-400);
+  text-align: center;
   border-radius: 15px;
   padding: 15px 20px;
   font-weight: 500;
@@ -300,7 +301,7 @@ h1 {
 }
 
 .contactdiv-image {
-  width: 50vw;
+  width: 100vw;
   height: 100%;
   background-image: url('../images/Dreamside_00003.jpg');
   background-position: 50%;
@@ -310,10 +311,10 @@ h1 {
 .contactformdiv {
   width: 50vw;
   height: 100%;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  display: block;
+  display: flex;
 }
 
 .footersection {
@@ -369,7 +370,7 @@ h1 {
 }
 
 .form-messagefield {
-  width: 60%;
+  width: 100%;
   height: 20vh;
   background-color: var(--neutral-100);
   border-radius: 10px;
@@ -380,18 +381,19 @@ h1 {
 }
 
 .form-singleline {
-  width: 60%;
+  width: 100%;
   background-color: var(--neutral-100);
   border-radius: 10px;
   margin-bottom: 25px;
 }
 
 .form {
+  width: 35vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 0;
   display: flex;
 }
 
@@ -405,7 +407,7 @@ h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
-  padding-left: 50px;
+  padding-left: 0;
 }
 
 .navh2 {
@@ -446,6 +448,10 @@ h1 {
 }
 
 @media screen and (max-width: 991px) {
+  .button {
+    margin-left: 50px;
+  }
+
   .features-flexdiv {
     flex-direction: column;
   }
@@ -467,19 +473,36 @@ h1 {
   }
 
   .form {
+    width: 40vw;
     flex-direction: column;
     align-items: center;
+    padding-left: 50px;
     display: flex;
   }
 
   .icon {
     color: #bf9c75;
   }
+
+  .menu-button, .menu-button.w--open, .nav-menu {
+    background-color: #181810;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .mainp-text {
     width: 55ch;
+  }
+
+  .button {
+    margin-bottom: 50px;
+  }
+
+  .contactsection {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .contactdiv {
@@ -492,6 +515,8 @@ h1 {
   .contactdiv-image {
     width: 100vw;
     background-position: 50% 75%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .contactformdiv {
@@ -499,16 +524,19 @@ h1 {
     padding-left: 0;
   }
 
+  .footersection {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .form {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px 50px;
     display: flex;
   }
 
